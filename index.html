@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <div class="ticket">
+
+    <h1>Посадочний документ</h1>
+    <div class="line"></div>
+    <table>
+      <tr>
+        <td class="td1" rowspan="2">ТЕРМ.№2301</td>
+        <td class="td2">ПОСАДОЧНИЙ ДОКУМЕНТ</td>
+        <td class="td3"><span>000B45E9-</span>33A9-FFE6-0001</td>
+        <td class="td4" rowspan="2">
+          ПР:400757776555 <br>
+          НФ:3000377787 <br>
+          ПН:ЗТ07770005 <br>
+          ЗК:377733099</td>
+      </tr>
+      <tr>
+        <td class="td5">АТ «УКРЗАЛІЗНИЦЯ»<br>
+          м.Київ, вул.Єжи Ґедройця, буд.5</td>
+        <td class="td6">#Я85-А1-1778778-3009</td>
+      </tr>
+      <tr style="border-bottom: 0;">
+        <td class="td7" style="border-bottom: 0;">МПС</td>
+        <td class="td8" colspan="2" style="border-bottom: 0;">ЦЕЙ ПОСАДОЧНИЙ ДОКУМЕНТ Є ПІДСТАВОЮ ДЛЯ ПРОЇЗДУ</td>
+        <td class="td9" style="border-bottom: 0;"><span id="orderTime">30.09.2023 16:17</span></td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td class="dejavu-sans-mono" colspan="2">Прізвище, Ім'я</td>
+        <td class="dejavu-sans-mono col3"><span id="secondname">Мандрівник</span> <span id="firstname">Александр</span>
+        </td>
+        <td class="dejavu-sans-mono col4">Поїзд</td>
+        <td class="dejavu-sans-mono-bold  col5"><span id="trainId">810 КБ&#160; P</span></td>
+      </tr>
+      <tr>
+        <td class="dejavu-sans-mono col1">Відправлення</td>
+        <td class="dejavu-sans-mono col2">2215000</td>
+        <td class="dejavu-sans-mono-bold"><span id="departure">ЛЬВІВ</span></td>
+        <td class="dejavu-sans-mono">Вагон</td>
+        <td class="dejavu-sans-mono-bold col5"><span id="carriageId">02 С/1 КЛ ЛЬВ</span></td>
+      </tr>
+      <tr>
+        <td class="dejavu-sans-mono col1">Призначення</td>
+        <td class="dejavu-sans-mono col2">2218200</td>
+        <td class="dejavu-sans-mono-bold"><span id="destination">ІВАНО-ФРАНКІВСЬК</span></td>
+        <td class="dejavu-sans-mono">Місце</td>
+        <td class="dejavu-sans-mono-bold  col5"><span id="placeNumber">058 Повний</span></td>
+      </tr>
+      <tr>
+        <td class="dejavu-sans-mono" colspan="2">Дата/час відпр.</td>
+        <td class="dejavu-sans-mono-bold"><span id="departureTime"><span id="yestardeyDate">02.10.2023</span> 07:50</span></td>
+        <td class="dejavu-sans-mono" rowspan="2" style="border-bottom: 0;">Сервіс</td>
+        <td rowspan="2" style="border-bottom: 0;"></td>
+      </tr>
+      <tr style="border-bottom: 0;">
+        <td class="dejavu-sans-mono" colspan="2" style="border-bottom: 0;">Дата/час приб.</td>
+        <td class="dejavu-sans-mono-bold" style="border-bottom: 0;"><span id="destinationTime"><span id="currentDay">03.10.2023</span> 10:06</span>
+        </td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td class="dejavu-sans-mono cell1" colspan="5">
+          ВАРТ=<span><span id="price">179,57</span>ГРН</span>(КВ.29,70+ПЛ.94,84+ПДВ.29,91+СТР.0,12+КЗБ.25,00) <br>
+          #СНТ.ВIД М/В 6000ПЕТО.МIН. ПрАТ КМ"ГЛОБАЛ-ВОРЛД", КИЇВ,ВОЛОДИМИРОВСЬКА,96, T0442874305 <br>
+          <span>ЧАС ВІДПРАВЛЕННЯ КИЇВСЬКИЙ</span>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="1" class="cell2"><button id="openPanel"><img src="img/qr.png" alt=""></button></td>
+        <td class="dejavu-sans-bold cell3" colspan="4">Цей учбовий документ є підставою для проїзду без звернення в
+          касу.
+          <br>
+          Учбовий документ не є розрахунковим документом. <br>
+          Посадка здійснюється за пред'явленням документа, який посвідчує особу. <br>
+          Повернення цього учбового документа можливе до відправлення поїзда.
+        </td>
+      </tr>
+    </table>
+    <div class="line"></div>
+    <div class="add-info">
+      <p class="information-1">Додаткова інформація:</p>
+      <p class="information-2">Загальна вартість замовлення: <span id="commonPrice">191,57 грн</span></p>
+      <p class="information-3">Комісія за прийом платежу: 12,00 грн</p>
+      <p class="information-4">Покажіть провідникові цей квиток на екрані смартфону та надайте документ, що посвідчує особу.<br>
+        Квитки з QR-кодом не обов’язково друкувати.<br>
+        Якщо ви подорожуєте з дитиною, візьміть із собою оригінал її свідоцтва про народження.<br>
+        Якщо ви студент, перевірте, чи є у вас із собою студентський квиток.</p>
+      <p class="information-5">Деталі – за телефоном 3700</p>
+    </div>
+  </div>
+
+  <div id="adminPanel" hidden>
+    <form action="javascript:" id="form">
+      <label for="firstname">Ім'я (Василь)</label>
+      <input type="text" name="firstname">
+      <label for="secondname">Призвіще (Василенко)</label>
+      <input type="text" name="secondname">
+      <label for="departure">Звідки їхав?(Київ)</label>
+      <input type="text" name="departure">
+      <label for="destination">Куди приїхав?(Одеса)</label>
+      <input type="text" name="destination">
+      <label for="departureTime">В який час відправився потяг(05.11.2023 19:50)</label>
+      <input type="text" name="departureTime">
+      <label for="destinationTime">В який час прибув потяг(06.11.2023 10:50)</label>
+      <input type="text" name="destinationTime">
+      <label for="orderTime">Дата замовлення квітка(30.10.2023 16:10)</label>
+      <input type="text" name="orderTime">
+      <label for="trainId">Номер потягу(810 КБ  P)</label>
+      <input type="text" name="trainId">
+      <label for="carriageId">Номер Вагону(02 С/1 КЛ ЛЬВ)</label>
+      <input type="text" name="carriageId">
+      <label for="placeNumber">Місце у вагоні(058 Повний)</label>
+      <input type="text" name="placeNumber">
+      <label for="price">Вартість(179,57)</label>
+      <input type="text" name="price">
+      <button id="saveUnit">Save</button>
+    </form>
+    <button id="closePanel">close</button>
+    <p id="agree">  Зроблено для використовування у навчальних цілях, нажавши кнопку Save ви берете відповідальність на себе.</p>
+  </div>
+</body>
+
+</html>

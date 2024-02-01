@@ -1,0 +1,275 @@
+
+
+.ticket {
+  margin: 0 auto;
+  width: 1100px;
+  padding: 100px;
+}
+
+h1 {
+  font-family: DejaVuSans-Bold;
+  font-size: 20pt;
+  line-height: 100%;
+  font-size: 33px;
+}
+
+.line {
+  width: 900px;
+  margin: 0 auto;
+  border-bottom: 1px dashed black;
+  margin-bottom: 9px;
+  margin-top: 10px;
+}
+
+table {
+  width: 900px;
+  /* margin: 0 auto; */
+}
+
+tr {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+  /* width: 100px; */
+}
+
+#adminPanel {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+input {
+  background: linear-gradient(pink, cornsilk);
+  margin-bottom: 5px;
+}
+
+#saveUnit {
+  border: 1px dotted pink;
+  margin-top: 20px;
+  height: 60px;
+  background: linear-gradient(rgb(254, 254, 139),rgb(83, 174, 244))
+}
+
+#closePanel {
+  margin: 20px auto 0;
+  width: 50%;
+  height: 40px;
+  background-color: pink;
+}
+
+.td1 {
+  height: 76px;
+  width: 102px;
+  font-family: DejaVuSansMono;
+  font-size: 8pt;
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+.td2 {
+  width: 260px;
+  height: 38px;
+  font-family: DejaVuSans-Bold;
+  font-size: 8pt;
+  font-size: 13px;
+  vertical-align: top;
+  padding: 2px 4px;
+}
+
+.td3 {
+  width: 374px;
+  font-family: DejaVuSansMono-Bold;
+  font-size: 16pt;
+  font-size: 28px;
+  padding-left: 6px;
+  line-height: 103%;
+  vertical-align: top;
+  letter-spacing: -1.2px;
+}
+
+.td3 span {
+  font-family: DejaVuSansMono;
+  font-size: 10pt;
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+
+.td4 {
+  font-family: DejaVuSansMono-Bold;
+  font-size: 8pt;
+  font-size: 13px;
+  vertical-align: top;
+  padding: 7px 4px;
+}
+
+.td5 {
+  font-family: DejaVuSans;
+  font-size: 7pt;
+  vertical-align: top;
+  padding: 5px;
+  font-size: 11px;
+  line-height: 121%;
+  letter-spacing: 0.2px;
+}
+
+.td6 {
+  font-family: DejaVuSansMono-Bold;
+  font-size: 12pt;
+  vertical-align: top;
+  padding-left: 5px;
+  font-size: 19px;
+  letter-spacing: 0.35px;
+}
+
+.td7 {
+  height: 23px;
+  font-family: DejaVuSans;
+  font-size: 8pt;
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+.td8 {
+  font-family: DejaVuSans-Bold;
+  font-size: 8pt;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0.04px;
+}
+
+.td9 {
+  font-family: DejaVuSansMono;
+  font-size: 8pt;
+  font-size: 13px;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.dejavu-sans-mono {
+  font-family: DejaVuSansMono;
+  font-size: 8pt;
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+.dejavu-sans-mono span {
+  font-family: DejaVuSansMono-Bold;
+  font-size: 8pt;
+  font-size: 13px;
+}
+
+.dejavu-sans-mono-bold {
+  font-family: DejaVuSansMono-Bold;
+  font-size: 8pt;
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+.dejavu-sans-bold {
+  font-family: DejaVuSans-Bold;
+  font-size: 8pt;
+  font-size: 13px;
+  padding-top: 58px;
+  padding-left: 21px;
+  vertical-align: top;
+}
+
+#departure,
+#destination {
+  text-transform: uppercase;
+}
+
+table:nth-of-type(2) tr:first-child,
+table:nth-of-type(2) tr:nth-child(2),
+table:nth-of-type(2) tr:nth-child(3),
+table:nth-of-type(2) tr:nth-child(4),
+table:nth-of-type(2) tr:nth-child(5) {
+  height: 24.5px;
+}
+
+.col1 {
+  width: 123px;
+}
+
+.col2 {
+  width: 81px;
+}
+
+.col3 {
+  width: 434px;
+}
+
+.col4 {
+  width: 98px;
+}
+
+.col5 {
+  font-size: 13px;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.cell1 {
+  height: 108px;
+}
+
+.cell2 {
+  height: 192px;
+  width: 225px;
+  padding-left: 13px;
+  padding-top: 2px;
+  vertical-align: top;
+}
+
+
+.cell2 img {
+  width: 182px;
+}
+
+.information-1 {
+  font-family: DejaVuSans-Bold;
+  font-size: 15px;
+  margin-bottom: 13px;
+}
+
+.information-2 {
+  font-family: DejaVuSans-Bold;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.information-3 {
+  font-family: DejaVuSans;
+  font-size: 15px;
+  margin-bottom: 13px;
+}
+
+.information-4 {
+  font-family: DejaVuSans;
+  font-size: 15px;
+  margin-bottom: 13px;
+}
+
+.information-5 {
+  font-family: DejaVuSans-Bold;
+  font-size: 15px;
+}
+
+#agree{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
