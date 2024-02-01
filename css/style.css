@@ -1,32 +1,4 @@
-@font-face {
-  font-family: DejaVuSans;
-  src: url('/font/DejaVuSans.ttf') format('truetype');
-}
 
-@font-face {
-  font-family: DejaVuSans-Bold;
-  src: url('/font/DejaVuSans-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: DejaVuSansCondensed-BoldOblique;
-  src: url('/font/DejaVuSansCondensed-BoldOblique.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: DejaVuSansMono;
-  src: url('/font/DejaVuSansMono.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: DejaVuSansMono-Bold;
-  src: url('/font/DejaVuSansMono-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: MyCustomFont2;
-  src: url('path/to/font2.ttf') format('truetype');
-}
 
 .ticket {
   margin: 0 auto;
