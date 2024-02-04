@@ -39,13 +39,13 @@ async function loadUnit() {
     destination.innerText = form.destination.value
   } 
 
-  if(form.departureTime.value) {
-    departureTime.innerText = form.departureTime.value
-  }
+  // if(form.departureTime.value) {
+  //   departureTime.innerText = form.departureTime.value
+  // }
   
-  if(form.destinationTime.value) {
-    destinationTime.innerText = form.destinationTime.value
-  }
+  // if(form.destinationTime.value) {
+  //   destinationTime.innerText = form.destinationTime.value
+  // }
     
   if(form.orderTime.value) {
     orderTime.innerText = form.orderTime.value
