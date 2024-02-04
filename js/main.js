@@ -66,6 +66,8 @@ async function loadUnit() {
   if(form.placeNumber.value) {
     placeNumber.innerText = form.placeNumber.value
   }
+
+  commonPrice.innerText = +form.price.value + 12
   
 }
 
