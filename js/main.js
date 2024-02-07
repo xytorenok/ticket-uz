@@ -1,5 +1,6 @@
 let dataUz = {}
 let currentDate = new Date();
+let countTouch = 0
 
 HTMLFormElement.prototype.fillIn = function (dict) {
   for (let key in dict) {
@@ -72,19 +73,30 @@ async function loadUnit() {
 }
 
 closePanel.onclick = closeAdminPanel
-openPanel.ondblclick = openAdminPanel
+openPanel.onclick = openAdminPanel
 
 function closeAdminPanel() {
   adminPanel.hidden = true
+  openPanel.style.backgroundColor = "white";
 }
 
 function openAdminPanel() {
-  if (adminPanel.hidden == true) {
-    adminPanel.hidden = false
-    console.log('open')
-  } else {
-    adminPanel.hidden = true
+  countTouch++
+  if(countTouch >= 2) {
+    if (adminPanel.hidden == true) {
+      adminPanel.hidden = false
+      console.log('open')
+      openPanel.style.backgroundColor = "rgb(238, 238, 191)";
+    } else {
+      adminPanel.hidden = true
+      openPanel.style.backgroundColor = "white";
+    }
+
+    countTouch = 0
   }
+
+
+  
 }
 
 
