@@ -181,9 +181,6 @@ input {
   font-family: DejaVuSans-Bold;
   font-size: 8pt;
   font-size: 13px;
-  padding-top: 58px;
-  padding-left: 21px;
-  vertical-align: top;
 }
 
 #departure,
@@ -228,15 +225,28 @@ table:nth-of-type(2) tr:nth-child(5) {
 .cell2 {
   height: 192px;
   width: 225px;
-  padding-left: 13px;
+  /* padding-left: 13px;
   padding-top: 2px;
-  vertical-align: top;
+  vertical-align: top; */
+}
+
+#openPanel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
-.cell2 img {
+#openPanel img {
   width: 182px;
   height: 182px;
+}
+
+.cell3{
+  height: 192px;
+  padding-left: 21px;
 }
 
 .information-1 {
